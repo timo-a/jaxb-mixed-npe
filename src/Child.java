@@ -1,14 +1,15 @@
-import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlValue;
 
-@XmlRootElement(name = "child")
 public class Child {
 
 	@XmlValue
-	private String content;
+	protected String value;
+	
+    public String getValue() {
+        return value;
+    }
 
-	@Override
-	public String toString() {
-		return content;
-	}
+    public void setValue(String value) {
+        this.value = value;
+    }
 }

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parent>
+    I am the parent element of mixedtype.
+    <child>I am the child element</child>
+    I contain both element and value.
+</parent>
